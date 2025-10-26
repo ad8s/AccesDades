@@ -1,4 +1,4 @@
-package practicar;
+package practicar.practica1;
 
 public class prova {
     public static void main(String[] args) {

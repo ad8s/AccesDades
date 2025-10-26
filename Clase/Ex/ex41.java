@@ -12,7 +12,7 @@ public class ex41 {
         System.out.println("Introdueix el teu password: ");
         String pass = sc.nextLine();
         String fileName = nom + ".usr";
-        File userFile = new File(fileName);
+        File userFile = new File("files/" + fileName);
         if (userFile.exists()) {
             try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(userFile))) {
                 User user = (User) ois.readObject();

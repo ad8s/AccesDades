@@ -1,4 +1,4 @@
-package practicar;
+package practicar.practica1;
 
 import java.io.File;
 import java.io.FileOutputStream;

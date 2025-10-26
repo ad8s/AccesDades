@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class ex23 {
     public static void main(String[] args) {
-        String fileName = "codis_secrets.bin";
+        String fileName = "files/codis_secrets.bin";
         Random random = new Random();
 
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileName))) {

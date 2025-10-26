@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ex32 {
     public static void main(String[] args) {
-        String fileName = "text.bin";
+        String fileName = "files/text.bin";
         Scanner sc = new Scanner(System.in);
         System.out.println("Introdueix un codi (ex: 6): ");
         int codeFound = sc.nextInt();

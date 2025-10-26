@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class ex31 {
     public static void main(String[] args) {
-        String file = "text.bin";
+        String file = "files/text.bin";
         Random random = new Random();
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(file))) {
             int codi = random.nextInt(3) + 1;

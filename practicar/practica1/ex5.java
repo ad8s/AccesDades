@@ -1,11 +1,11 @@
-package practicar;
+package practicar.practica1;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Scanner;
 import java.io.IOException;
 
-public record ex5() {
+public class ex5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String file = "clave.txt";
